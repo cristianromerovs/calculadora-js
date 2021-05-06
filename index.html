@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calculadora">
+        <div class="pantalla">
+            
+        </div>
+
+        <div class="fila1">
+            <div class="button" id="button-clean" onclick="buttonClear()">c</div>
+            <div class="button" id="button-mod" onclick="buttonMod()">%</div>
+            <div class="button" id="button-divide" onclick="buttonDivide()">÷</div>
+        </div>
+        <div class="fila2">
+            <div class="button" onclick="button7()">7</div>
+            <div class="button" onclick="button8()">8</div>
+            <div class="button" onclick="button9()">9</div>
+            <div class="button" id="button-multiply" onclick="button()">x</div>
+        </div>
+        <div class="fila3">
+            <div class="button" onclick="button4()">4</div>
+            <div class="button" onclick="button5()">5</div>
+            <div class="button" onclick="button6()">6</div>
+            <div class="button" id="button-subtraction" onclick="button()">-</div>
+        </div>
+        <div class="fila4">
+            <div class="button" onclick="button1()">1</div>
+            <div class="button" onclick="button2()">2</div>
+            <div class="button" onclick="button3()">3</div>
+            <div class="button" id="button-addition" onclick="button()">+</div>
+        </div>
+        <div class="fila5">
+            <div class="button" id="button-0" onclick="button0()">0</div>
+            <div class="button" onclick="buttonComma()">,</div>
+            <div class="button" id="button-equals" onclick="buttonEquals()">=</div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

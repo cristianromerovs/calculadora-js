@@ -1,0 +1,68 @@
+/* CALCULADORA */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.calculadora {
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+.calculadora .pantalla {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(75, 78, 87);
+    border-radius: 5px 5px 0px 0px;
+}
+
+.calculadora .button {
+    background-color: rgb(111, 110, 121);
+    color: #FFF;
+    font-size: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora .fila1, .fila2, .fila3, .fila4, .fila5{
+    display: flex;
+    flex-direction: row;
+    height: 16%;
+}
+
+.calculadora .fila1 .button, .fila2 .button, .fila3 .button, .fila4 .button{
+    width: 25%;
+    height: 100%;
+}
+
+.calculadora .fila5 #button-0 {
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 0px 0px 5px;
+}
+
+.calculadora .fila1 #button-clean {
+    width: 50%;
+    height: 100%;
+}
+
+
+.calculadora .fila5 #button-equals {
+    border-radius: 0px 0px 5px 0px;
+}
+
+.calculadora .fila5 .button {
+    width: 25%;
+    height: 100%;
+}
+
+#button-divide, #button-multiply, #button-subtraction, #button-addition, #button-equals {
+    background-color: rgb(252, 141, 15);
+}
+
+#button-clean, #button-plusmin, #button-mod {
+    background-color: rgb(71, 70, 80);
+}
